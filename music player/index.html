@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" defer></script>
+  <script src="animation.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="../node_modules/sal.js/dist/sal.js"></script>
+<link rel="stylesheet" href="../node_modules/sal.js/dist/sal.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js" defer></script>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+  
+  
+    <div class="containerrr">
+      
+    
+    <div class="containerr">
+      <div class="nextsong">
+        Up next:
+      </div>
+      <audio>
+        <source src="stiches.mp3" type="audio/mp3" preload="metadata" >
+      </audio> 
+      <h1 data-sal="slide-up"
+data-sal-delay="500"
+data-sal-easing="ease-out-forward">Music player</h1>
+      <div class="img-container">
+      <img src="stiches.jpg" class="imgg">
+    </div>
+    <div class="progress_bar">
+      <div class="progresss"></div>
+    </div>
+    <div class="btns">
+      
+  <button class="btn btn-outline-primary" id="prev"><i class="fas fa-backward"></i></button>
+  <button class="btn btn-outline-primary" id="play"><i class="fas fa-play"></i></button>
+  <button class="btn btn-outline-primary" id="forw"><i class="fas fa-forward"></i></button>
+  
+</div>
+</div>
+
+</div>
+
+</body>
+
+
+<script>
+ sal();
+</script>
+</html>
